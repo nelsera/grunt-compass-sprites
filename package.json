@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/marginelson/grunt-compass-sprites/issues"
   },
-  "homepage": "https://github.com/marginelson/grunt-compass-sprites"
+  "homepage": "https://github.com/marginelson/grunt-compass-sprites",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compass": "~0.7.2"
+  }
 }
