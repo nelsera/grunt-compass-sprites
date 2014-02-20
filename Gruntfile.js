@@ -6,9 +6,9 @@ module.exports = function (grunt) {
     grunt.initConfig({
         compass: {
             options: {
-                sassDir: sassDir,
-                cssDir: cssDir,
-                imagesDir: imgDir,
+                sassDir: 'scss',
+                cssDir: 'css',
+                imagesDir: 'images',
                 relativeAssets: true,
                 debugInfo: false,
                 noLineComments: true
