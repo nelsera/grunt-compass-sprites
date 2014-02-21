@@ -14,4 +14,4 @@ npm install
 ### Usage Examples
 
 ```shell
-grunt genesprites
+grunt sprites
