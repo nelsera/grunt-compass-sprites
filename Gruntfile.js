@@ -5,16 +5,19 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         compass: {
-            options: {
-                sassDir: 'scss',
-                cssDir: 'css',
-                imagesDir: 'images',
-                relativeAssets: true,
-                debugInfo: false,
-                noLineComments: true
+            main: {
+                options: {
+                    sassDir: 'scss',
+                    cssDir: 'css',
+                    imagesDir: 'images',
+                    relativeAssets: true,
+                    debugInfo: false,
+                    noLineComments: true
+                }
             }
         }
     });
 
     grunt.registerTask('sprites', ['compass']);
+    grunt.registerTask('default', ['sprites']);
 };
