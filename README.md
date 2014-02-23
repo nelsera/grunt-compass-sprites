@@ -1,4 +1,4 @@
-# grunt-compass-sprite v0.1.0
+# grunt-compass-sprite v0.1.1
 
 > Compile image sprites using Compass
 
