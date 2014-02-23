@@ -12,7 +12,9 @@ module.exports = function (grunt) {
                     imagesDir: 'images',
                     relativeAssets: true,
                     debugInfo: false,
-                    noLineComments: true
+                    noLineComments: true,
+                    assetCacheBuster: false,
+                    cacheDir: false
                 }
             }
         }
